@@ -5,7 +5,6 @@ import {
     User,
     LogOut,
     LayoutDashboard,
-    Settings,
     Bell,
     Menu as MenuIcon,
     X,
@@ -33,7 +32,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
     const navItems = [
         { icon: LayoutDashboard, label: 'Dashboard', path: '/dashboard' },
-        { icon: User, label: 'Profile', path: '/dashboard' }, // Profile is currently part of dashboard
+        { icon: User, label: 'Profile', path: '/dashboard' },
     ];
 
     const adminItems = [

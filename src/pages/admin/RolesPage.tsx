@@ -9,12 +9,10 @@ import {
     Search,
     Edit2,
     Trash2,
-    RotateCcw,
     Shield,
     Loader2,
     CheckCircle2,
-    AlertCircle,
-    MoreVertical
+    AlertCircle
 } from 'lucide-react';
 import Layout from '@/components/Layout';
 
